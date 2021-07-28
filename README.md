@@ -1,2 +1,2 @@
 # study
-html/css/javascript
+javascript
