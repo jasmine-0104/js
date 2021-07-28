@@ -1,0 +1,108 @@
+nav {
+    position: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black
+}
+
+.nav_logo a,
+.nav_button a,
+.nav_button i {
+    color: white;
+    font-size: 20px;
+}
+
+.nav_logo i {
+    color: red;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.nav_button {
+    display: flex;
+}
+
+.nav_button li {
+    padding: 8px 8px
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.detail {
+    display: flex;
+    margin: 10px 10px;
+}
+
+.left {
+    width: 50%;
+    padding: 0 20px 0 0;
+}
+
+.tag {
+    display: flex;
+    width: 100%;
+}
+
+.tag li {
+    padding-right: 10px;
+}
+
+.tag li a {
+    color: royalblue;
+}
+
+.video_title h3 {
+    color: black;
+}
+
+.video_title p {
+    font-size: 8px;
+    color: grey;
+}
+
+.video_reaction {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video_reaction li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.video_reaction li a i {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.video_reaction li a p {
+    font-size: 10px;
+    color: grey;
+    padding-top: 10px;
+}
+
+.video_reaction li a i:hover {
+    color: royalblue;
+}
